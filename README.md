@@ -18,7 +18,7 @@ USE:
                         }
 
                         @Override
-                        public void onFailure(Call<HashMap> call, Throwable t) {
+                        public void onFailure(Call<T> call, Throwable t) {
                             super.onFailure(call , t);
                         }
 
