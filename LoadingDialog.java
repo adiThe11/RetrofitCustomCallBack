@@ -1,4 +1,3 @@
-package io.ideaction.slipzz;
 
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -18,6 +17,7 @@ public class LoadingDialog extends DialogFragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.dialog_loading, container, false);
         ProgressBar loading_indicator = v.findViewById(R.id.loading_indicator);
+        //Set the color programatecly if you want
         loading_indicator.getIndeterminateDrawable()
                 .setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN);
         return v;
