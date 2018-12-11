@@ -1,5 +1,3 @@
-package io.ideaction.slipzz.APIClasses;
-
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
