@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 public class LoadingDialog extends DialogFragment {
 
@@ -20,6 +19,7 @@ public class LoadingDialog extends DialogFragment {
         //Set the color programatecly if you want
         loading_indicator.getIndeterminateDrawable()
                 .setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN);
+        setCancelable(false);
         return v;
     }
 
